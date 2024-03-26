@@ -1,0 +1,13 @@
+{
+    "name": "Java Project",
+    "image": "openjdk:17-jdk",
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "vscjava.vscode-java-pack"
+    ],
+    "forwardPorts": [],
+    "mounts": [],
+    "postCreateCommand": "echo 'Ambiente pronto per Java!'"
+}
